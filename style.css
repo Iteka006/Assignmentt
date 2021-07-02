@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+    height:100vh;
+    background-size: cover; 
+    background-position:center;
+
+}
+.main-nav{
+    float:right;
+   list-style:none;
+   margin-top:30px;
+
+}
+.main-nav li{
+    display: inline-block;
+
+}
+.main-nav a{
+text-decoration: none;
+color:white;
+padding: 5px 20px;
+font-family:"roboto", "sans-serif";
+font-size:15px;
+}
+.main-nav li.active a {
+    border: 1px solid white;
+}
+.main-nav li a:hover{
+    border:1px solid white;
+}
+.logo img{
+    width:100px;
+    height:auto;
+    float:left;
+}
+body{
+    font-family:monospace;
+}
+.row{
+    max-width:auto;
+    margin: auto;
+}
+.hero{
+    position: absolute;
+    width:auto;
+    margin-left:auto;
+    margin-top:0px;
+}
+h1{
+    color:white;
+    text-transform:uppercase;
+    font-size:70px;
+    text-align:center;
+    margin-top:275px;
+    margin-left:400px;
+}
+.button{
+    margin-top:30px;
+    margin-left:400px;
+}
+.btn{
+    border:1px solid white;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    text-transform: uppercase;
+
+}
+.btn-one{
+    background-color:darkorange;
+    font-family:"Roboto", sans-serif;
+}
+.btn-two{
+
+    font-family:"Roboto", sans-serif;
+}
+.btn-two:hover{
+    background-color:darkorange;
+    transition: all 0.5s ease-in;
+}
+.container{
+    display:flex;
+    background-color:rgb(27,27,27);
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+.card{
+    background:white;
+    width:33.3%;
+    margin:10px;
+    border-radius:15px;
+}
+.card-image{
+    height:450px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0;
+   
+}
+.car-1{
+    background-image:url("card-1.jpg");
+}
+.car-2{
+    background-image:url("card-2.jpg");
+}
+.car-3{
+    background-image:url("card-3.jpg");
+}
+.card a{
+    background-color:black;
+    color:white;
+    padding:15px 20px;
+    display:block;
+    text-align:center;
+    margin:20px 50px;
+    text-decoration:none ;
+}
+.card:hover{
+    background-color:rgb(62,62,62);
+    color:white;
+    cursor:pointer;
+    transform:scale(1.01);
+    transition:all 1s ease;
+
+}
